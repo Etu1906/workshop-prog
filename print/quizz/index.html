@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <meta charset="UTF-8" /><meta
+    content="width=device-width,initial-scale=1"
+    name="viewport"
+  /><title>Quiz Dynamique</title
+  ><link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="quizz.png" type="image/png" />
+  <body class="bg-gray-100 font-sans text-gray-900">
+    <div class="p-6 container mx-auto">
+      <div id="quiz-container" class="p-6 bg-white quiz-padding rounded shadow">
+        <h1
+          class="text-center bold-color font-bold mb-4 text-2xl flex items-center justify-center gap-4"
+          id="quiz-title"
+        >
+          <img
+            src="quizz-title.png"
+            alt="Titre Quiz"
+            class="quiz-title-image"
+          />
+          <span></span>
+          <!-- Le texte sera inséré dynamiquement dans ce span -->
+        </h1>
+
+        <div id="quiz-questions"></div>
+        <div id="button-container">
+          <button id="reset-btn">Réinitialiser le Quiz</button>
+          <button
+            id="submit-btn"
+            class="rounded bg-blue-500 hover:bg-blue-600 mt-6 px-4 py-2 text-white"
+          >
+            Soumettre
+          </button>
+        </div>
+        <div id="quiz-result" class="text-center hidden mt-4"></div>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>

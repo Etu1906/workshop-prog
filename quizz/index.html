@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Dynamique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-900 font-sans">
+    <div class="container mx-auto p-6">
+      <div id="quiz-container" class="bg-white p-6 rounded shadow quiz-padding">
+        <h1
+          id="quiz-title"
+          class="bold-color text-2xl font-bold mb-4 text-center"
+        ></h1>
+        <div id="quiz-questions"></div>
+        <div id="button-container">
+          <button id="reset-btn">Réinitialiser le Quiz</button>
+          <button
+            id="submit-btn"
+            class="mt-6 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+          >
+            Soumettre
+          </button>
+        </div>
+        <div id="quiz-result" class="mt-4 text-center hidden"></div>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
