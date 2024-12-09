@@ -1,5 +1,5 @@
 const quizData = {
-  quizTitle: "Quiz sur les variables",
+  quizTitle: "Les variables ✨",
   questions: [
     {
       question: "Comment déclarer une variable avec des nombres à virgule ?",

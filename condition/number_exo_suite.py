@@ -2,7 +2,7 @@
 #cette fois-ci, on va faire en sorte de pouvoir choisir quel est l'operation que l'on veux realiser
 # +, -
 
-#bonus : , *, /, %, ** , verifier si les 2 chiffres ou l'operateur entré ne sont pas vide
+#bonus : , *, /, %, ** , si / vérifier si  le dividende est bien différent de 0 si oui ne pas faire la division ,  verifier si les 2 chiffres ou l'operateur entré ne sont pas vide
 
 premier_input = input("entrez le nombre 1 : ")
 deuxieme_input = input("entrez le nombre 2 : ")
