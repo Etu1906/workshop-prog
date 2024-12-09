@@ -12,7 +12,6 @@ if min_number <= max_number:
   while counter <= max_number:
     if counter % 2 == 0:
       print( counter )
-
     counter += 1
 
 else:

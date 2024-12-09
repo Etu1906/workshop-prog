@@ -1,6 +1,6 @@
 // Données du quiz
 const quizData = {
-  quizTitle: "Premier Quiz",
+  quizTitle: "Premier Quiz 🎉",
   questions: [
     {
       question: "Quel typage Python utilise-t-il ?",
