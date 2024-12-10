@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
           document.querySelectorAll(`input[data-question-index="${s}"]`)
         );
         l.forEach((t) => {
+          console.log(e);
           e.checked.includes(t.value) && (t.checked = !0),
             e.correct.includes(t.value) && !t.checked
               ? t.parentElement.classList.add("text-green-300")
